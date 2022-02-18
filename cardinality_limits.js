@@ -1,11 +1,3 @@
-/**
- * For local development
- */
- if (typeof $env === "undefined" || $env === null) {
-  global._isApiTest = true;
-  require("./lib/simulator");
-}
-
 var assert = require('assert');
 
 //SET THE FOLLOWING TO DESIRED THRESHOLDS

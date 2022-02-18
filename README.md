@@ -23,7 +23,7 @@ Add this to the top of your script, the library mimics the Synthetics API and im
 ```
     if (typeof $env === "undefined" || $env === null) {
       global._isApiTest = true;  // false, for Scripted Browser
-      require("../lib/simulator");
+      require("./lib/simulator");
     }
 ```
 
