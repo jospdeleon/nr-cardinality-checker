@@ -14,7 +14,7 @@ The script is using two types of thresholds:
 1. ACCOUNT_THRESHOLD is currently set to 5,000,000
 2. METRIC_THRESHOLD is currently set to 50,000
 
-These can be changed to whatever thresholds are needed. When either of these are reached, the script will fail. You can then set up an alert if this monitor fails to get notified when there are any "offending" metrics with high cardinality.
+These can be changed to whatever thresholds are needed. When either of these is reached, the script will fail. You can then set up an alert if this monitor fails to get notified when there are any "offending" metrics with high cardinality.
 
 ## Running the Script Locally
 
