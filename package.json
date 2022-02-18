@@ -1,0 +1,16 @@
+{
+  "name": "nr-cardinality-checker",
+  "version": "1.0.0",
+  "description": "Scripted API that checks cardinality limits",
+  "main": "cardinality_limits.js",
+  "dependencies": {
+    "request": "^2.88.2",
+    "selenium-webdriver": "^4.1.1",
+    "chromedriver": "^90.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "Jo Ann de Leon",
+  "license": "Apache-2.0"
+}
